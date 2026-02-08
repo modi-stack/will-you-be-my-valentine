@@ -14,7 +14,11 @@ const answers_no = {
         "Why are you doing this to me?",
         "Please give me a chance!",
         "I am begging you to stop!",
-        "Ok, Let's just start over.."
+        "Pleaseeeeeeeeeeee",
+        "Soch lo",
+        "Please na",
+        "Ek baar",
+        "Okay one last change please"
     ],
     french: [
         "Non",
@@ -128,7 +132,7 @@ function changeLanguage() {
     } else if (language === "thai") {
         questionHeading.textContent = "คืนดีกับเราได้อ่ะป่าว?";
     } else {
-        questionHeading.textContent = "Will you be my valentine?";
+        questionHeading.textContent = "Wifey, Will you be my valentine?";
     }
 
     // Reset yes button text
